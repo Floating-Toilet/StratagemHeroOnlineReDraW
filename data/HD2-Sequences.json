@@ -283,5 +283,10 @@
     "name": "Patriot Exosuit",
     "sequence": "LDRULDD",
     "image": "patriot_exosuit.svg"
+  },
+  {
+    "name": "Konami Code",
+    "sequence": "UUDDLRLR",
+    "image": "reinforce.svg"
   }
 ]
