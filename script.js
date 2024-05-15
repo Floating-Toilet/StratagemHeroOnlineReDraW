@@ -348,9 +348,9 @@ function gameOver(){
     sfxGameOver[Math.floor(Math.random() * sfxGameOver.length)].play();
     
         // Display messages for specific scores
-    if (completed-strategems-readout === 5) {
+    if (score-readout >= 5) {
         alert("If you got the infamous code first discovered in Gradius (1986) try it on the main website");
-    } else if (completed-strategems-readout === 10) {
+    } else if (score-readout >= 10) {
         alert("The password is boobs");
     }
 }
